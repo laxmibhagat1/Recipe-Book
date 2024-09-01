@@ -1,0 +1,83 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://as2.ftcdn.net/v2/jpg/07/08/60/55/1000_F_708605505_EzH13hNe2Y4ZjpDnUDciVrAyIPzqWa8X.jpg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #d3b2b2;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* nav ul li a.active {
+    font-weight: bold;
+} */
+
+main {
+    padding: 2rem;
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.about h2 {
+    margin-bottom: 1rem;
+}
+
+.about ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.about ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

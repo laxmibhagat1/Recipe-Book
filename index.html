@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link 
+       rel="stylesheet" 
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZohtI1oN19GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+       crossorigin="anonymous"
+       referrerpolicy="no-referrer"
+       />
+    <title>Recipe Book</title>
+</head>
+<body> 
+    <div class="video-container">
+        <video autoplay muted loop id="background-video">
+            <source src="https://videos.pexels.com/video-files/2620043/2620043-uhd_2560_1440_25fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <header>
+        <nav class="container">    
+            <h1>📒Recipe Book</h1>
+            <ul>
+               <li><a href="#home" class="nav-link">Home</a></li>
+               <li><a href="about.html" class="nav-link">About</a></li>
+               <li><a href="service.html" class="nav-link">Service</a></li>
+               <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <form>
+                <input type="text" placeholder="Search for recipes..." class="searchBox">
+                <button type="submit" class="searchBtn">Search</button>
+            </form>
+        </nav>
+    </header>  
+    <main>
+        <section>
+            <div class="recipe-container">
+               <h2>Search your favourite recipes...</h2>
+            </div>
+            <div class="recipe-details">
+                <button type="button" class="recipe-close-btn">
+                    <i class="fas fa-times">X</i>  
+                </button>
+            <div class="recipe-details-content"></div>
+         </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script> 
+</body>
+</html>

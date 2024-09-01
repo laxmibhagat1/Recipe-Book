@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Page - Add New Recipe</title>
+    <link rel="stylesheet" href="service.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <h1>📙Recipe Book</h1>
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- <h1>Recipe Service Page</h1> -->
+    </header>
+
+    <section class="recipe-form-section">
+        <h2>Add a New Recipe</h2>
+        <form id="recipeForm">
+            <label for="recipeName">Recipe Name:</label>
+            <input type="text" id="recipeName" required>
+
+            <label for="ingredients">Ingredients (comma separated):</label>
+            <input type="text" id="ingredients" required>
+
+            <label for="category">Category:</label>
+            <input type="text" id="category" required>
+
+            <label for="instructions">Instructions:</label>
+            <textarea id="instructions" required></textarea>
+
+            <button type="submit">Add Recipe</button>
+        </form>
+    </section>
+
+    <section class="recipe-list-section">
+        <h2>Your Recipes</h2>
+        <!-- <button class="close_buttons"></button> -->
+        <div id="recipeContainer">
+            <!-- Recipes will be listed here -->
+        </div>
+    </section>
+
+    <script src="service.js"></script>
+</body>
+</html> 
+
+
+
+
